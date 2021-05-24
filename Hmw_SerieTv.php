@@ -56,7 +56,7 @@ $res=mysqli_query($conn,$query);
         </nav>
 <header>
     <div class='overlay'></div>
-    <h1 id='title'>NomeSito</h1>
+    <h1 id='title'>Il Cinefilo</h1>
     <p class='subtitle'>Movie Comunity</p>
    </header>
 <section>
@@ -82,7 +82,7 @@ $res=mysqli_query($conn,$query);
 <footer>
 <div class='footer'>
 
-    <p>nomesito 2021</p>
+    <p>Il Cinefilo 2021</p>
 <p>Sito web ideato da:Bonadonna Stefano O46002083</p>
     
 </div>

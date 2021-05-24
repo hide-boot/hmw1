@@ -374,7 +374,7 @@ function CommentJson(json){
 }
 
 function onPrefer(json){
-    
+    console.log(json.length)
     for(let i=0;i<json.length;i++){
         const uri=encodeURI(json[i]);
         

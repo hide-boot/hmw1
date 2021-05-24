@@ -105,6 +105,9 @@ CREATE TABLE preferiti_anime (
     foreign key(post) references posts_anime(id) on delete cascade on update cascade 
 )Engine = InnoDB
 
+
+
+
 DELIMITER //
 CREATE TRIGGER oncomment
 AFTER INSERT ON comments
